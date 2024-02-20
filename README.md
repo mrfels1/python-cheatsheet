@@ -1,6 +1,7 @@
 Comprehensive Python Cheatsheet
 
 susspicious
+ping
 
 ===============================
 <sup>[Download text file](https://raw.githubusercontent.com/gto76/python-cheatsheet/main/README.md), [Buy PDF](https://transactions.sendowl.com/products/78175486/4422834F/view), [Fork me on GitHub](https://github.com/gto76/python-cheatsheet) or [Check out FAQ](https://github.com/gto76/python-cheatsheet/wiki/Frequently-Asked-Questions).
@@ -10,14 +11,14 @@ susspicious
 
 ## Contents
 
-**&nbsp;&nbsp;&nbsp;** **1. Collections:** **&nbsp;** **[`List`](#list)****,** **[`Dictionary`](#dictionary)****,** **[`Set`](#set)****,** **[`Tuple`](#tuple)****,** **[`Range`](#range)****,** **[`Enumerate`](#enumerate)****,** **[`Iterator`](#iterator)****,** **[`Generator`](#generator)****.**  
-**&nbsp;&nbsp;&nbsp;** **2. Types:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Type`](#type)****,** **[`String`](#string)****,** **[`Regular_Exp`](#regex)****,** **[`Format`](#format)****,** **[`Numbers`](#numbers-1)****,** **[`Combinatorics`](#combinatorics)****,** **[`Datetime`](#datetime)****.**  
-**&nbsp;&nbsp;&nbsp;** **3. Syntax:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Args`](#arguments)****,** **[`Inline`](#inline)****,** **[`Import`](#imports)****,** **[`Decorator`](#decorator)****,** **[`Class`](#class)****,** **[`Duck_Types`](#duck-types)****,** **[`Enum`](#enum)****,** **[`Exception`](#exceptions)****.**  
-**&nbsp;&nbsp;&nbsp;** **4. System:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Exit`](#exit)****,** **[`Print`](#print)****,** **[`Input`](#input)****,** **[`Command_Line_Arguments`](#command-line-arguments)****,** **[`Open`](#open)****,** **[`Path`](#paths)****,** **[`OS_Commands`](#os-commands)****.**  
-**&nbsp;&nbsp;&nbsp;** **5. Data:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`JSON`](#json)****,** **[`Pickle`](#pickle)****,** **[`CSV`](#csv)****,** **[`SQLite`](#sqlite)****,** **[`Bytes`](#bytes)****,** **[`Struct`](#struct)****,** **[`Array`](#array)****,** **[`Memory_View`](#memory-view)****,** **[`Deque`](#deque)****.**  
-**&nbsp;&nbsp;&nbsp;** **6. Advanced:** **&nbsp;&nbsp;&nbsp;** **[`Threading`](#threading)****,** **[`Operator`](#operator)****,** **[`Match_Stmt`](#match-statement)****,** **[`Logging`](#logging)****,** **[`Introspection`](#introspection)****,** **[`Coroutines`](#coroutines)****.**  
-**&nbsp;&nbsp;&nbsp;** **7. Libraries:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Progress_Bar`](#progress-bar)****,** **[`Plots`](#plot)****,** **[`Tables`](#table)****,** **[`Curses`](#curses)****,** **[`GUIs`](#pysimplegui)****,** **[`Scraping`](#scraping)****,** **[`Web`](#web)****,** **[`Profiling`](#profiling)****.**  
-**&nbsp;&nbsp;&nbsp;** **8. Multimedia:** **&nbsp;&nbsp;** **[`NumPy`](#numpy)****,** **[`Image`](#image)****,** **[`Animation`](#animation)****,** **[`Audio`](#audio)****,** **[`Synthesizer`](#synthesizer)****,** **[`Pygame`](#pygame)****,** **[`Pandas`](#pandas)****,** **[`Plotly`](#plotly)****.**
+**&nbsp;&nbsp;&nbsp;** **1. Collections:** **&nbsp;** **[`List`](#list)\*\***,\*\* **[`Dictionary`](#dictionary)\*\***,\*\* **[`Set`](#set)\*\***,\*\* **[`Tuple`](#tuple)\*\***,\*\* **[`Range`](#range)\*\***,\*\* **[`Enumerate`](#enumerate)\*\***,\*\* **[`Iterator`](#iterator)\*\***,\*\* **[`Generator`](#generator)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **2. Types:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Type`](#type)\*\***,\*\* **[`String`](#string)\*\***,\*\* **[`Regular_Exp`](#regex)\*\***,\*\* **[`Format`](#format)\*\***,\*\* **[`Numbers`](#numbers-1)\*\***,\*\* **[`Combinatorics`](#combinatorics)\*\***,\*\* **[`Datetime`](#datetime)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **3. Syntax:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Args`](#arguments)\*\***,\*\* **[`Inline`](#inline)\*\***,\*\* **[`Import`](#imports)\*\***,\*\* **[`Decorator`](#decorator)\*\***,\*\* **[`Class`](#class)\*\***,\*\* **[`Duck_Types`](#duck-types)\*\***,\*\* **[`Enum`](#enum)\*\***,\*\* **[`Exception`](#exceptions)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **4. System:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Exit`](#exit)\*\***,\*\* **[`Print`](#print)\*\***,\*\* **[`Input`](#input)\*\***,\*\* **[`Command_Line_Arguments`](#command-line-arguments)\*\***,\*\* **[`Open`](#open)\*\***,\*\* **[`Path`](#paths)\*\***,\*\* **[`OS_Commands`](#os-commands)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **5. Data:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`JSON`](#json)\*\***,\*\* **[`Pickle`](#pickle)\*\***,\*\* **[`CSV`](#csv)\*\***,\*\* **[`SQLite`](#sqlite)\*\***,\*\* **[`Bytes`](#bytes)\*\***,\*\* **[`Struct`](#struct)\*\***,\*\* **[`Array`](#array)\*\***,\*\* **[`Memory_View`](#memory-view)\*\***,\*\* **[`Deque`](#deque)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **6. Advanced:** **&nbsp;&nbsp;&nbsp;** **[`Threading`](#threading)\*\***,\*\* **[`Operator`](#operator)\*\***,\*\* **[`Match_Stmt`](#match-statement)\*\***,\*\* **[`Logging`](#logging)\*\***,\*\* **[`Introspection`](#introspection)\*\***,\*\* **[`Coroutines`](#coroutines)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **7. Libraries:** **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** **[`Progress_Bar`](#progress-bar)\*\***,\*\* **[`Plots`](#plot)\*\***,\*\* **[`Tables`](#table)\*\***,\*\* **[`Curses`](#curses)\*\***,\*\* **[`GUIs`](#pysimplegui)\*\***,\*\* **[`Scraping`](#scraping)\*\***,\*\* **[`Web`](#web)\*\***,\*\* **[`Profiling`](#profiling)\*\***.\*\*  
+**&nbsp;&nbsp;&nbsp;** **8. Multimedia:** **&nbsp;&nbsp;** **[`NumPy`](#numpy)\*\***,\*\* **[`Image`](#image)\*\***,\*\* **[`Animation`](#animation)\*\***,\*\* **[`Audio`](#audio)\*\***,\*\* **[`Synthesizer`](#synthesizer)\*\***,\*\* **[`Pygame`](#pygame)\*\***,\*\* **[`Pandas`](#pandas)\*\***,\*\* **[`Plotly`](#plotly)\*\***.\*\*
 
 ## Main
 
